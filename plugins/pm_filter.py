@@ -838,7 +838,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 ツ Creator: PR0FESS0R 99
 ❖ Language: Python3
 ❖ Hosted: Heroku
-❖ Version: 2.0.1 
+❖ Version: 2.7.1
 ❖ Farmework: Pyrogram
 ❖ Database: MongoDB
 ֎ Bot: Indian 🇮🇳
@@ -1146,7 +1146,11 @@ async def auto_filter(client, msg, spoll=False):
             else:
                 btn.append(
                     [InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/int(MAX_B_TN))}",callback_data="pages"), InlineKeyboardButton(text="Next Page ➡️",callback_data=f"next_{req}_{key}_{offset}")]
-                )    
+                )
+    else:
+        btn.append(
+            [InlineKeyboardButton(text="𝐍𝐎 𝐌𝐎𝐑𝐄 𝐏𝐀𝐆𝐄𝐒 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄",callback_data="pages")]
+        )    
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
     if imdb:
