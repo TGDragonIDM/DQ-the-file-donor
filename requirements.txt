@@ -14,3 +14,4 @@ youtube-search
 youtube-search-python
 yt-dlp
 wget
+Heroku3
