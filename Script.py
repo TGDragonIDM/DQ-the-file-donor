@@ -142,3 +142,11 @@ Music Download Modules, For Those Who Love Music.
 ✯ ━━━━━ ✧ ━━━━━ ✯</b>"""
 
     LOGO = """PR0FESS0R 99"""
+    
+    RESTART_TXT = """
+Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
+
+📅 Dᴀᴛᴇ : 2023-02-18
+⏰ Tɪᴍᴇ : 13:48:05 PM
+🌐 Tɪᴍᴇᴢᴏɴᴇ : Asia/Kolkata
+🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ Sᴛᴀʙʟᴇ ]"""
