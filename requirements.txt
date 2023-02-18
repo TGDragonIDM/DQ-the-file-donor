@@ -10,3 +10,7 @@ git+https://github.com/Joelkb/cinemagoer
 datetime
 pytz
 aiohttp
+youtube-search
+youtube-search-python
+yt-dlp
+wget
