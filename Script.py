@@ -140,3 +140,5 @@ Music Download Modules, For Those Who Love Music.
 ✯ ━━━━━ ✧ ━━━━━ ✯
 𝐉𝐨𝐢𝐧 🎗️ 𝐒𝐡𝐚𝐫𝐞 🎗️ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭
 ✯ ━━━━━ ✧ ━━━━━ ✯</b>"""
+
+    LOGO = """PR0FESS0R 99"""
