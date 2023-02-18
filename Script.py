@@ -124,7 +124,7 @@ Music Download Modules, For Those Who Love Music.
     CAPTION = """<b>
 🎬 Title - <code>{file_name}</code>
 ✯ ━━━━━ ✧ ━━━━━ ✯
-🔘𝐉𝐨𝐢𝐧
+🔘 𝐉𝐨𝐢𝐧
 👉 <a href='https://t.me/Tk_movies_adda'>Tk Entertainment</a>
 👉 <a href='https://t.me/+fMFyfuUUod03NDVl'>Tk Entertainment Updates</a>
 ✯ ━━━━━ ✧ ━━━━━ ✯
@@ -135,8 +135,8 @@ Music Download Modules, For Those Who Love Music.
 ᴀꜰᴛᴇʀ ɢᴇᴛᴛɪɴɢ ᴍᴏᴠɪᴇꜱ/ꜱᴇʀɪᴇꜱ.
 ɪᴛ ᴡɪʟʟ ʜᴇʟᴘ ᴜꜱ ɢʀᴏᴡɪɴɢ 🙏
 ✯ ━━━━━ ✧ ━━━━━ ✯
-⬆️𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲
-👉 <a href='https://t.me/Pr0fess0r99'>PR0FESS0R99</a>
+⬆️ 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲
+👉 <a href='https://t.me/Pr0fess0r99'>PR0FESS0R 99</a>
 ✯ ━━━━━ ✧ ━━━━━ ✯
 𝐉𝐨𝐢𝐧 🎗️ 𝐒𝐡𝐚𝐫𝐞 🎗️ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭
 ✯ ━━━━━ ✧ ━━━━━ ✯</b>"""
