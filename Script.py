@@ -120,6 +120,8 @@ Music Download Modules, For Those Who Love Music.
 👉 Avoid Symbols (/.,:;'"-)
 👉 Avoid Requesting Same Movie/Series Repeatedly
 👉 Avoid Requesting Unreleased Movie/Series"""
+    
+    REPRT_MSG = """Report Sent To Admin"""
 
     CAPTION = """<b>
 🎬 Title - <code>{file_name}</code>
