@@ -124,21 +124,21 @@ Music Download Modules, For Those Who Love Music.
     REPRT_MSG = """Report Sent To Admin"""
 
     CAPTION = """<b>
-🎬 Title - <code>{file_name}</code>
+🎬 𝐓𝐢𝐭𝐥𝐞 - <code>{file_name}</code>
 ✯ ━━━━━ ✧ ━━━━━ ✯
 🔘 𝐉𝐨𝐢𝐧
-👉 <a href='https://t.me/Tk_movies_adda'>Tk Entertainment</a>
-👉 <a href='https://t.me/+fMFyfuUUod03NDVl'>Tk Entertainment Updates</a>
+👉 <a href='https://t.me/Tk_movies_adda'>𝐓𝐤 𝐄𝐧𝐭𝐞𝐫𝐭𝐚𝐢𝐧𝐦𝐞𝐧𝐭</a>
+👉 <a href='https://t.me/+fMFyfuUUod03NDVl'>𝐓𝐤 𝐄𝐧𝐭𝐞𝐫𝐭𝐚𝐢𝐧𝐦𝐞𝐧𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐬</a>
 ✯ ━━━━━ ✧ ━━━━━ ✯
 ➠ 𝐇𝐞𝐫𝐞 𝐈𝐬 𝐘𝐨𝐮𝐫 #𝐑𝐞𝐪𝐮𝐞𝐬𝐭
 ✯ ━━━━━ ✧ ━━━━━ ✯
-👋 ʜᴇʏ!!
+👋 ʜᴇʏ !!
 ᴋɪɴᴅʟʏ ᴀᴅᴅ ʏᴏᴜʀ ꜰʀɪᴇɴᴅꜱ, 
 ᴀꜰᴛᴇʀ ɢᴇᴛᴛɪɴɢ ᴍᴏᴠɪᴇꜱ/ꜱᴇʀɪᴇꜱ.
 ɪᴛ ᴡɪʟʟ ʜᴇʟᴘ ᴜꜱ ɢʀᴏᴡɪɴɢ 🙏
 ✯ ━━━━━ ✧ ━━━━━ ✯
 ⬆️ 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲
-👉 <a href='https://t.me/Pr0fess0r99'>PR0FESS0R 99</a>
+👉 <a href='https://t.me/Pr0fess0r99'>𝐏𝐑𝟎𝐅𝐄𝐒𝐒𝟎𝐑 𝟗𝟗</a>
 ✯ ━━━━━ ✧ ━━━━━ ✯
 𝐉𝐨𝐢𝐧 🎗️ 𝐒𝐡𝐚𝐫𝐞 🎗️ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭
 ✯ ━━━━━ ✧ ━━━━━ ✯</b>"""
