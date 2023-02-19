@@ -96,19 +96,19 @@ Music Download Modules, For Those Who Love Music.
     LOG_TEXT_P = """🆔 ID - <code>{}</code>
 👤 Name - {}"""
 
-    ALRT_TXT = """Hello 👋 {}, This Is Not Your Message 🤗\n\nRequest Your Own ✍️\n\n©️ TK ENTERTAINMENT"""
+    ALRT_TXT = """Hello {}, This Is Not Your Message 🤗\n\nRequest Your Own ✍️\n\n©️ TK ENTERTAINMENT"""
 
     OLD_ALRT_TXT = """Hello 👋 {}, You Are Using One Of My Old Messages, Please Request Again 🙏"""
 
-    CUDNT_FND = """I Couldn't Find Anything Related To {} Did You Mean Any One Of These..?"""
+    CUDNT_FND = """আমি {} এর সাথে সম্পর্কিত কিছু খুঁজে পাইনি আপনি কি এর মধ্যে যেকোন একটিকে বোঝাতে চেয়েছেন..? যদি আপনি এর মধ্যে যে কোনো একটিকে বোঝাতে চেয়েছেন তাহলে সেই বটনটিতে ক্লিক করুন। 👇\n\nI couldn't find anything related to {} do you mean any of these..? If you mean any of these, click on that button.👇"""
 
     I_CUDNT = """Hello 👋 {},\n\nI Couldn't 🔍 Find {} You Asked For 🤷\n\nClick [GOOGLE] [IMDB] On Any Button And Find The Correct Movie/Series Name And Enter It Here 💯\n\nIf You Do Not Receive The Movie/Series Even After Entering The Correct Name Then Your Requested Movie/Series Does Not Exit In My Database 🗄"""
 
     I_CUD_NT = """Couldn't Find Any Related To {}.Please Check Your Spelling On GOOGLE Or IMDB"""
 
-    MVE_NT_FND = """This Movie Not Found In DataBase"""
+    MVE_NT_FND = """এই মুভিটি ডেটাবেসে পাওয়া যায়নি।\n\nThis Movie Not Found In DataBase."""
 
-    TOP_ALRT_MSG = """Checking For Movie In DataBase..."""
+    TOP_ALRT_MSG = """ডেটাবেসে মুভির জন্য অনুসন্ধান করা হচ্ছে।\n\nSearching For Movie In DataBase."""
 
     MELCOW_ENG = """<b>Hello 👋 {}, Welcome To {} 💐</b>"""
    
