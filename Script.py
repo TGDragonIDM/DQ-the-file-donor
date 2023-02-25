@@ -148,7 +148,7 @@ Music Download Modules, For Those Who Love Music.
     RESTART_TXT = """
 Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
 
-📅 Dᴀᴛᴇ : 2023-02-18
-⏰ Tɪᴍᴇ : 13:48:05 PM
+📅 Dᴀᴛᴇ : {}
+⏰ Tɪᴍᴇ : {}
 🌐 Tɪᴍᴇᴢᴏɴᴇ : Asia/Kolkata
-🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ Sᴛᴀʙʟᴇ ]"""
+🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [Sᴛᴀʙʟᴇ]"""
