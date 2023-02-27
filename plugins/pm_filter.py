@@ -276,10 +276,13 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            await query.message.edit(f'╭───────────\n\n.\n├• 🧑🏽‍💻 May Be It Is Not Uploaded. Wait Until Admin Uploads.\n.\n.\n.\n├• 𝗜𝗳 𝗶𝘁 𝗶𝘀 𝗮 𝘀𝗲𝗿𝗶𝗲𝘀, 𝘁𝗵𝗲𝗻 𝗹𝗼𝗼𝗸 𝗶𝗳 𝗮𝗻𝗼𝘁𝗵𝗲𝗿 𝗕𝗼𝘁 𝗴𝗮𝘃𝗲 𝗶𝘁 𝘁𝗼 𝘆𝗼𝘂.\n.')
-            jj = await bot.send_message(LOG_CHANNEL,f'New Request Of {query.from_user.first_name}\n\n<b>Link</b> :-\n{query.message.reply_to_message.link}', disable_web_page_preview= True)
-            await asyncio.sleep(1800)
-            await jj.delete()
+            reqstr1 = query.from_user.id if query.from_user else 0
+            reqstr = await bot.get_users(reqstr1)
+            if NO_RESULTS_MSG:
+                await bot.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, movie)))
+            k = await query.message.edit(script.MVE_NT_FND)
+            await asyncio.sleep(10)
+            await k.delete()
 
 @Client.on_callback_query()
 async def cb_handler(client: Client, query: CallbackQuery):
@@ -521,13 +524,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                     return
                 else:
-                    await query.answer(f"Hello 👋 {query.from_user.first_name}, This Is Not Your Message 🤗\n\nRequest Your Own ✍️\n\n©️ TK ENTERTAINMENT", show_alert=True)
+                    await query.answer(f"Hello {query.from_user.first_name}, This Is Not Your Message 🤗\n\nRequest Your Own ✍️\n\n©️ TK ENTERTAINMENT", show_alert=True)
             elif settings['botpm']:
                 if clicked == typed:
                     await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                     return
                 else:
-                    await query.answer(f"Hello 👋 {query.from_user.first_name}, This Is Not Your Message 🤗\n\nRequest Your Own ✍️\n\n©️ TK ENTERTAINMENT", show_alert=True)
+                    await query.answer(f"Hello {query.from_user.first_name}, This Is Not Your Message 🤗\n\nRequest Your Own ✍️\n\n©️ TK ENTERTAINMENT", show_alert=True)
             else:
                 if clicked == typed:
                     await client.send_cached_media(
@@ -547,17 +550,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         )
                     )
                 else:
-                    await query.answer(f'Hello {query.from_user.first_name} Check PM, I Have Sent Your Files In PM 📥',show_alert = True)
-                await client.send_message(LOG_CHANNEL,f'╭───#Got_file──〄\n│\n├• <b>{query.from_user.first_name}</b>\n│\n├•<a href= http://www.example.com/>File name:</a> <code>{files.file_name}</code>\n.')
+                    await query.answer(f"Hello {query.from_user.first_name}, This Is Not Your Message 🤗\n\nRequest Your Own ✍️\n\n©️ TK ENTERTAINMENT", show_alert=True)
+                await query.answer('Hello {query.from_user.first_name} Check PM, I Have Sent Your Files In PM 📥', show_alert=True)
         except UserIsBlocked:
-            await query.answer('Unblock The Bot Mahn..!', show_alert=True)
+            await query.answer('Unblock The Bot..!', show_alert=True)
         except PeerIdInvalid:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
         except Exception as e:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("Hey, {query.from_user.first_name}! I Like Your Smartness, But Don't Be Oversmart 😒", show_alert=True)
+            await query.answer("Hello {query.from_user.first_name}..! I Like Your Smartness, But Don't Be Oversmart 😒", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
@@ -577,8 +580,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f_caption = f_caption
         if f_caption is None:
             f_caption = f"{title}"
-        await query.answer()
-        await client.send_message(LOG_CHANNEL,f'╭───#Got_file──〄\n│\n├• <b>{query.from_user.first_name}</b>\n│\n├•<a href= http://www.example.com/>File name:</a> <code>{files.file_name}</code>\n.')
+        await query.answer()        
         await client.send_cached_media(
             chat_id=query.from_user.id,
             file_id=file_id,
